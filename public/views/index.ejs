@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="css/styles.css">
+   <script src="script/scripts.js"></script>
+</head>
+<body>
+   <div class="container">
+      <h1>API-testamiinen</h1>
+      <section>
+         <h2>1. Valitse kyselyrajapinta</h2>
+         <input type="radio" id="sumAndPrime" name="sum-and-prime-option" value="HTML">
+         <label for="sumAndPrime">Palauttaa syötelukujen summan ja tiedon, onko kyseessä alkuluku</label><br>
+         <input type="radio" id="prime" name="sum-and-prime-option" value="HTML">
+         <label for="prime">Palauttaa tiedon, onko syöteluku alkuluku</label><br>
+      </section>
+      <section>
+         <h2>2. Syötä numerot</h2>
+         <label>Syötä numero(t) pilkulla eroteltuna </label>
+         <input class="number-input-field" type="text" for="numbers" id="fname" name="fname"><br><br>
+         <button class="submit-btn" type="submit" onclick="displayResult()">Lähetä</button>
+      </section>
+      <section>
+         <div class="result"></div>
+      </section>
+   </div>
+</body>
+</html>

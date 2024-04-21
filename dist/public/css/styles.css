@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.container button{
+  width: fit-content;
+}
+
+.container input.number-input-field {
+  display: block;
+  max-width: 50%;
+  margin-top: 20px;
+}
+
+.container button.submit-btn{
+  max-width: 50%
+}
+
+.container .result{
+  margin-top: 20px;
+}
