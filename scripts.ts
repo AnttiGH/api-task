@@ -21,3 +21,4 @@ const displayResult = async () => {
     }
 };
 
+export {};

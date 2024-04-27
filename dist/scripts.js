@@ -8,6 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 const displayResult = () => __awaiter(void 0, void 0, void 0, function* () {
     const isPrimeRadioBtnChecked = document.getElementById("prime").checked;
     const isSumAndPrimeRadioBtnChecked = document.getElementById("sumAndPrime").checked;
